@@ -13,14 +13,14 @@ lilas #5f2c82
 }
 
 body, html{
-    background: #5f2c82;
+    background-color: #5f2c82;
     height: 100vh;
     width: 100vw;
 }
 main{
     position: relative;
     height: 100vh;
-    height: 100vw;
+    width: 100vw;
 }
 section#Login{
     position: absolute;
@@ -34,6 +34,8 @@ section#Login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px black;
+    transition: width 1s; height: 1s;
+    transition-timing-function: ease;
 }
 section#Login > div#imagem{
     background: #5f2c82 url(../imagens/pexels-vinícius-estevão-2896034.jpg);
